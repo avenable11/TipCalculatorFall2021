@@ -54,7 +54,8 @@
             android:layout_height="wrap_content"
             android:enabled="false"
             android:inputType="none"
-            android:text="@string/default_tip" />
+            android:text="@string/default_tip"
+            android:textColor="@color/black" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <ImageButton
