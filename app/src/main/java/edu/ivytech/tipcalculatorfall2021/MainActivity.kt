@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+/*
         binding.upButton.setOnClickListener {
             tipPercent += .01
             displayPercent()
@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
             tipPercent -= .01
             displayPercent()
         }
+
+ */
         binding.calculateBtn.setOnClickListener{
             calculateAndDisplay()
         }
