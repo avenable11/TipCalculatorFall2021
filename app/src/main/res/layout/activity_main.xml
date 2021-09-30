@@ -56,7 +56,7 @@
                 android:enabled="false"
                 android:inputType="none"
                 android:text="@string/default_tip"
-                android:textColor="@color/black" />
+                android:textColor="@color/black_800" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <SeekBar
@@ -93,7 +93,7 @@
             android:enabled="false"
             android:inputType="none"
             android:text="@string/default_amount"
-            android:textColor="@color/black" />
+            android:textColor="@color/black_800" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -117,7 +117,7 @@
             android:enabled="false"
             android:inputType="none"
             android:text="@string/default_amount"
-            android:textColor="@color/black" />
+            android:textColor="@color/black_800" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -185,7 +185,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:enabled="false" />
+            android:enabled="false"
+            android:textColor="@color/black_800" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -208,7 +209,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:enabled="false"
-            android:text="@string/default_amount" />
+            android:text="@string/default_amount"
+            android:textColor="@color/black_800" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
